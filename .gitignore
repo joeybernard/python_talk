@@ -2,3 +2,4 @@
 *.build
 env
 python
+.ipynb_checkpoints
