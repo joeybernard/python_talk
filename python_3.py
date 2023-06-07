@@ -3,7 +3,7 @@ from math import *
 from datetime import datetime
 import sys
 
-@jit(nopython=True,parallel=True)
+@jit(nopython=True)
 def calc_1(size):
     a = range(size)
     b = []
